@@ -1,0 +1,1 @@
+This is a repository for all the projects done in Web Technology course throughout the 3/1 semester of SWE-22
