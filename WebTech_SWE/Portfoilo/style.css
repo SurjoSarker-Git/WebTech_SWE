@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s ease;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #b74b4b;
+    font-weight: 800;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 5rem;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+    max-width: 600px;
+}
+
+span{
+    color: #b74b4b;
+}
+
+
+.home-img img{
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #b74b4b;
+    transition: 0.3s;
+}
+
+.home-img img:hover{
+    transform: scale(1.05);
+}
+
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #b74b4b;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    color: #b74b4b;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    background: #b74b4b;
+    color: black;
+    transform: scale(1.2);
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    border: 2px solid #b74b4b;
+    border-radius: 4rem;
+    color: #b74b4b;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #b74b4b;
+    color: black;
+}
+
+
+.typing-text span::before{
+    content: "Software Engineering Student";
+    animation: words 15s infinite;
+}
+
+@keyframes words{
+    0%,25%{ content: "Software Engineering Student"; }
+    26%,50%{ content: "Web Developer"; }
+    51%,75%{ content: "Problem Solver"; }
+    76%,100%{ content: "Future Software Architect"; }
+}
+
+.section-title{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #b74b4b;
+}
+
+.section-text{
+    font-size: 1.8rem;
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill-box{
+    padding: 1.5rem 3rem;
+    border: 2px solid #b74b4b;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    transition: 0.3s;
+}
+
+.skill-box:hover{
+    background-color: #b74b4b;
+    color: black;
+}
+
+
+.projects-container{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    flex: 1 1 30rem;
+    padding: 2rem;
+    border: 2px solid #b74b4b;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.project-card h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-card p{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.project-card:hover{
+    background-color: #b74b4b;
+    color: black;
+}
