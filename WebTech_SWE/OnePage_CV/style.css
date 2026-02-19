@@ -20,7 +20,6 @@ body {
 .header {
     text-align: center;
     padding: 20px;
-    /* background: linear-gradient(to right, #001aff, #0996ee); */
     border: 1px solid black;
     color: white;
     border-radius: 10px;
